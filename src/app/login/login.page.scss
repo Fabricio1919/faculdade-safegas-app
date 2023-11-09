@@ -1,0 +1,113 @@
+
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.logo-soft {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.card-struct {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 0;
+    color: #4FD1C5;
+    font-size: 32;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h6 {
+    display: flex;
+    color: #A0AEC0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12;
+    font-weight:bold;
+    justify-content: center;
+    text-align: center;
+}
+
+ion-button {
+    width: 100%;
+    --border-radius: 15px;
+}
+
+.enter {
+    margin-top: 40px;
+    --background:#4FD1C5;
+}
+
+ion-input {
+    margin-top: 10px;
+    color: #A0AEC0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    font-weight: 400;
+}
+
+.inputLogin {
+    --border-radius: 15px;
+}
+
+ion-toggle {
+    display: flex;
+    margin-top: 25px;
+    color: #2D3748;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12;
+    font-weight: 400;
+}
+
+.cadastro {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    font-weight: 400;
+}
+
+.inscreva {
+    color: #4FD1C5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+strong {
+    display: flex;
+    color: #A0AEC0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkButtons {
+    display: flex;
+    margin: 0 70px 0 70px;
+    gap: 10px;
+}
+
+.google ,.apple ,.face {
+    --border-radius: 15px;
+    --border-width:1px;
+    --box-shadow: 1px;
+    --border-color:#E2E8F0;
+}
+

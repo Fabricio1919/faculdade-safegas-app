@@ -1,0 +1,121 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+
+<ion-content [fullscreen]="true" class="content">
+  <div class="card-login">
+      <div class="card-struct">
+        <h1>Logar com</h1>
+        <div class="linkButtons">
+          <ion-button fill="outline" class="face">
+            <svg
+              width="26"
+              height="27"
+              viewBox="0 0 26 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_146_247)">
+                <path
+                  d="M23.6776 13.2244C23.6776 7.33025 18.894 2.5466 12.9999 2.5466C7.10573 2.5466 2.32208 7.33025 2.32208 13.2244C2.32208 18.3924 5.99524 22.6956 10.8643 23.6886V16.4277H8.72875V13.2244H10.8643V10.5549C10.8643 8.49412 12.5407 6.81771 14.6015 6.81771H17.271V10.021H15.1354C14.5481 10.021 14.0676 10.5015 14.0676 11.0888V13.2244H17.271V16.4277H14.0676V23.8488C19.4599 23.3149 23.6776 18.7661 23.6776 13.2244Z"
+                  fill="#2D3748"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_146_247">
+                  <rect
+                    width="25.6267"
+                    height="25.6267"
+                    fill="white"
+                    transform="translate(0.186523 0.411041)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </ion-button>
+  
+          <ion-button fill="outline" class="apple">
+            <svg
+              width="26"
+              height="27"
+              viewBox="0 0 26 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.8374 7.25964C15.8193 7.25964 14.9664 8.22265 13.5609 8.22265C12.1199 8.22265 11.0208 7.26665 9.27195 7.26665C7.56017 7.26665 5.73477 8.31174 4.57556 10.0921C2.94787 12.6027 3.22415 17.3311 5.8604 21.3593C6.80338 22.8013 8.06269 24.4185 9.71441 24.436H9.74444C11.1799 24.436 11.6064 23.496 13.5819 23.485H13.612C15.558 23.485 15.9484 24.4305 17.3779 24.4305H17.4079C19.0596 24.413 20.3865 22.6211 21.3295 21.1846C22.0082 20.1516 22.2605 19.633 22.781 18.4643C18.9675 17.0168 18.3549 11.6107 22.1263 9.53801C20.9751 8.09651 19.3574 7.26165 17.8324 7.26165L17.8374 7.25964Z"
+                fill="#2D3748"
+              />
+              <path
+                d="M17.393 2.01398C16.1918 2.09556 14.7903 2.86036 13.9695 3.8589C13.2247 4.76384 12.612 6.10623 12.8523 7.40809H12.9484C14.2277 7.40809 15.5371 6.63779 16.3019 5.65076C17.0386 4.71128 17.5972 3.3799 17.393 2.01398Z"
+                fill="#2D3748"
+              />
+            </svg>
+          </ion-button>
+  
+          <ion-button fill="outline" class="google" size="large">
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.7681 8.8866L18.6806 8.51499H10.6035V11.9335H15.4294C14.9284 14.3128 12.6034 15.5652 10.7043 15.5652C9.32245 15.5652 7.86584 14.9839 6.90174 14.0496C6.39308 13.5489 5.98819 12.9526 5.71025 12.2952C5.43231 11.6377 5.28678 10.9318 5.28199 10.218C5.28199 8.7781 5.92911 7.33776 6.87074 6.39032C7.81236 5.44289 9.23449 4.91279 10.6485 4.91279C12.2678 4.91279 13.4284 5.77265 13.8624 6.1648L16.2916 3.74835C15.579 3.12215 13.6214 1.54425 10.5702 1.54425C8.21614 1.54425 5.95895 2.44596 4.30898 4.09051C2.6807 5.70987 1.83789 8.05154 1.83789 10.2242C1.83789 12.397 2.63537 14.6216 4.21327 16.2537C5.89928 17.9944 8.28705 18.9042 10.7457 18.9042C12.9828 18.9042 15.1032 18.0277 16.6144 16.4374C18.1001 14.8719 18.8685 12.7058 18.8685 10.435C18.8685 9.47909 18.7724 8.9114 18.7681 8.8866Z"
+                fill="#2D3748"
+              />
+            </svg>
+          </ion-button>
+        </div>
+        <h6>Ou</h6>
+        <ion-input
+        name="Nome"
+        class="inputLogin"
+
+        label="Nome"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Nome Completo"
+      ></ion-input>
+        <ion-input
+          name="email"
+          class="inputLogin"
+
+          label="E-mail"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Insira seu Email"
+        ></ion-input>
+        <ion-input
+          name="senha"
+          class="inputLogin"
+ 
+          label="Senha"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Insira sua senha"
+        ></ion-input>
+        <ion-toggle
+          label-placement="end"
+          aria-label="Secondary toggle"
+          color="secondary"
+          [checked]="true"
+          >lembrar-me</ion-toggle
+        >
+        <ion-button type="submit" expand="block" class="enter"
+          >REGISTRA-SE</ion-button
+        >
+        <p class="cadastro">
+          Já tem uma conta? <a href="#" class="Login">Login</a>
+        </p>
+      </div>
+
+      <p class="option"><strong>Ou</strong></p>
+
+      
+  </div>
+</ion-content>
